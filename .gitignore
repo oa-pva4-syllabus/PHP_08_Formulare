@@ -1,0 +1,35 @@
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# JetBrains
+.idea/*
+
+# Mac/OSX
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+/.private/
+/.pripravy/
+
+# Nahrané fotky (ÚKOL 7) - do repozitáře patří jen .gitkeep a .htaccess
+/uploads/*
+!/uploads/.gitkeep
+!/uploads/.htaccess
